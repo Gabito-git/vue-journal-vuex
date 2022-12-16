@@ -1,0 +1,23 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$theme-colors: (
+  "primary":    #2C3350,
+  "secondary":  #1D6042,
+  "success":    #198954,
+  "info":       #0DCAF0,
+  "warning":    #FFC107,
+  "danger":     #dc3545,
+  "light":      #F8F9FA,
+  "dark":       #343A40
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.pointer{
+  cursor: pointer
+}
+
+// Then add additional custom code here
